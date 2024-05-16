@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title> LIVRE</title>
+        
+           
+    </head>
+    <body>
+        <div class="container">
+            <div class="contentdeux">
+                <button id="addLivreModalButton" type="button">Ajouter Livre</button>
+
+            </div>
+
+            <!-- Modal-->
+            <div class="modal" id="modals">
+
+                <div class="Mode-content">
+                    <span class="close"> X</span>
+                    <div class="formulaire">
+                        <form  method="post">
+                            
+                            <label for="livre"> Livre:</label> 
+                            <input type="text" name="livre" id="livre"  class="saisi">
+    
+                            <label for="auteur"> Auteur:</label>
+                            <input type="text" name="auteur" id="auteur" class="saisi">
+
+                    
+    
+                            <label for="anneePub"> Annee Publication:</label>
+                            <input type="date" name="anneePub" id="anneePub"class="saisi" >
+    
+                            <button type="submit"  class="addAjouterButton"> Ajouter</button>
+
+                          
+                          
+    
+                        </form>
+    
+                    </div>
+    
+                </div>
+
+            </div>
+
+
+            <div class="tableaux">
+                <table class="table">
+                    <thead>
+                       <tr>
+                        <th>Livre</th>
+                        <th>Auteur</th>
+                        <th>Annee Publication</th>
+                        <th>Actions</th>
+                    </tr>
+                    </thead>
+                  
+            
+
+                </table>
+
+            </div>
+
+            
+
+ </div>
+
+    <script src="script.js"></script>
+
+   
+    
+</body>
+</html> 
+
+
